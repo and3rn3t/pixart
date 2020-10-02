@@ -20,7 +20,7 @@
 
 ## #1 - Pixart (Required)
 
-For this assignment you'll be creating a Javascript painting app. When you're done
+For this assignment you'll be creating a Javascript painting app. When you're done, [it should display this functionality](http://ga-wdi-exercises.github.io/pixart_js/).
 
 Use the starter code and commit each step of the exercise.
 
