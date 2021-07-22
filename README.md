@@ -18,7 +18,7 @@
 
 <br>
 
-## #1 - Pixart (Required)
+## Pixart
 
 For this assignment you'll be creating a Javascript painting app. When you're done, [it should display this functionality](http://ga-wdi-exercises.github.io/pixart_js/).
 
@@ -83,7 +83,7 @@ Add a color swatch. You should have 3 boxes with the most recent 3 colors used. 
 
 <br><br>
 
-## Hungry for more??? (Not Required)
+## Hungry for more???
 
 MDN Web Docs (previously known as MDN — the Mozilla Developer Network) is an evolving learning platform for Web technologies and the software that powers the Web.
 
