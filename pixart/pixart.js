@@ -9,7 +9,7 @@ button.addEventListener('click', function(event) {
     brush.style.backgroundColor = colorInput.value;
 })
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 8000; i++) {
     // identifying body element
     const body = document.querySelector('body');
 
@@ -19,7 +19,7 @@ for (let i = 0; i < 20; i++) {
     body.appendChild(moreDivs);
 
     // this disables the screen refresh via the hint noted in the text, and listens for clicks in any moreDivs
-    moreDivs.addEventListener('click', function(event) {
+    moreDivs.addEventListener('mouseover', function(event) {
         event.preventDefault();
         // colors any clicked moreDivs the user-input color
         moreDivs.style.backgroundColor = colorInput.value;
