@@ -18,10 +18,10 @@ for (let i = 0; i < 20; i++) {
     moreDivs.setAttribute('class','square');
     body.appendChild(moreDivs);
 
-    // this disables the screen refresh with the hint noted in the text, and listens for clicks in any moreDivs
+    // this disables the screen refresh via the hint noted in the text, and listens for clicks in any moreDivs
     moreDivs.addEventListener('click', function(event) {
         event.preventDefault();
-        // colors any clicked moreDivs green
-        moreDivs.style.backgroundColor = "green";
+        // colors any clicked moreDivs the user-input color
+        moreDivs.style.backgroundColor = colorInput.value;
         })
 }
